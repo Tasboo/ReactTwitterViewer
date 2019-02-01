@@ -1,0 +1,27 @@
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+feeds-viewer/.pnp
+.pnp.js
+feeds-viewer/node_modules
+
+# testing
+feeds-viewer/coverage
+
+# production
+feeds-viewer/build
+
+# misc
+feeds-viewer/.DS_Store
+feeds-viewer/.env.local
+feeds-viewer/.env.development.local
+feeds-viewer/.env.test.local
+feeds-viewer/.env.production.local
+
+feeds-viewer/npm-debug.log*
+feeds-viewer/yarn-debug.log*
+feeds-viewer/yarn-error.log*
+
